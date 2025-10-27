@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import ProductCard from './ProductCard'
 import filters from './filterData'
-import qs from "qs";
+
 
 import {
   Dialog,

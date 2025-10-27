@@ -7,7 +7,7 @@ import { useState } from 'react';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import HomeSectionCard from '../HomeSectionCard/HomeSectionCard';
 import { mens_kurta } from '../../../Data/mens_kurta';
-import { data, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { findProductsById } from '../../../State/Product/Action';
